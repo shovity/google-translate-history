@@ -1,0 +1,31 @@
+<style>
+    body {
+        margin: 0;
+    }
+
+    #container {
+        width: 420px;
+        margin: 15px 0;
+    }
+
+    #container > div {
+        display: flex;
+    }
+
+    #container > div:not(:last-child) {
+        border-bottom: 1px solid #ededed;
+    }
+
+    #container > div:hover {
+        background-color: #ededed;
+    }
+
+    #container > div > div {
+        flex: 1;
+        padding: 7px 20px;
+    }
+</style>
+
+<div id="container"></div>
+
+<script src="./popup.js"></script>
